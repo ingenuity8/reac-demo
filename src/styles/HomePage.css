@@ -1,0 +1,17 @@
+/* Remove default browser margins and make background edge-to-edge */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b2e2a; /* match your dark hero background */
+}
+
+/* Ensure hero section spans full width */
+.hero-section {
+  margin: 0;
+  padding: 200px 140px 30px;
+  background: #1c282d;
+  color: white;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}

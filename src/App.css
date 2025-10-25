@@ -1,0 +1,7 @@
+/* Apply Public Sans globally */
+body {
+  font-family: 'Public Sans', 'Public Sans Fallback', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

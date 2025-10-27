@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import logo from "../assets/logo.svg"
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
       <div className="navbar-container">
         {/* Logo */}
         <div className="logo">
-          <img src="/logo.svg" alt="Logo" />
+          <img src alt="Logo" />
           <span>netradyne</span>
         </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/StatsSection.css";
-//import statsImage from "../images/stats1.PNG"; // ✅ ensure correct path
+import DriverSmiling from "../assets/DriverSmiling.webp" // ✅ ensure correct path
 
 export default function StatsSection() {
   return (
@@ -56,7 +56,7 @@ export default function StatsSection() {
         </div>
 
         <div className="performance-right">
-          <img src="" alt="Driver smiling" />
+          <img src={DriverSmiling} />
         </div>
       </div>
 

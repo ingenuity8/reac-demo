@@ -1,5 +1,11 @@
 import React from "react";
 import "../styles/FeaturesSection.css";
+import Features1 from "../assets/Features1.webp"
+import Features2 from "../assets/Features2.webp"
+import Features3 from "../assets/Features3.webp"
+import Features4 from "../assets/Features4.webp"
+import Features5 from "../assets/Features5.webp"
+import Features6 from "../assets/Features6.webp"
 
 export default function FeaturesSection() {
   const sections = [
@@ -8,7 +14,7 @@ export default function FeaturesSection() {
       heading: "Capturing less than 100% of the situation makes 0% sense.",
       description:
         "Our cameras provide a complete view of the road and driver, ensuring every detail is visible and actionable for maximum safety insights.",
-      img: "",
+      img: Features1,
       reverse: false,
     },
     {
@@ -16,7 +22,7 @@ export default function FeaturesSection() {
       heading: "Give drivers the freedom they want.",
       description:
         "With real-time alerts and event-based coaching, empower your drivers to stay safe while maintaining independence and confidence on the road.",
-      img: "",
+      img: Features2,
       reverse: true,
     },
     {
@@ -24,7 +30,7 @@ export default function FeaturesSection() {
       heading: "Get your drivers home safe & happy.",
       description:
         "Detect fatigue, distractions, and risky behavior early to ensure drivers stay focused, alert, and get home safely after every shift.",
-      img: "",
+      img: Features3,
       reverse: false,
     },
     {
@@ -32,7 +38,7 @@ export default function FeaturesSection() {
       heading: "Motivate & retain your best drivers.",
       description:
         "Turn safe driving into a rewarding experience with automated recognition and feedback that encourages continuous improvement.",
-      img: "",
+      img: Features4,
       reverse: true,
     },
     {
@@ -40,7 +46,7 @@ export default function FeaturesSection() {
       heading: "Reduce costs and downtime with fuel and maintenance insights.",
       description:
         "Our analytics highlight inefficiencies, helping you optimize routes, reduce idling, and manage maintenance proactively to lower operational costs.",
-      img: "",
+      img: Features5,
       reverse: false,
     },
     {
@@ -48,7 +54,7 @@ export default function FeaturesSection() {
       heading: "Minimize manual processes, maximize compliance.",
       description:
         "Get rid of paperwork and stay compliant effortlessly with automated reporting and intelligent data capture that simplifies fleet operations.",
-      img: "",
+      img: Features6,
       reverse: true,
     },
   ];

@@ -1,14 +1,17 @@
 import React from "react";
 import "../styles/HeroSection.css";
+import hero1 from "../assets/hero1.jpg"
+import hero2 from "../assets/hero2.jpg"
+import hero3 from "../assets/hero3.jpg"
 
 export default function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-images">
-          <img src="/images/hero1.jpg" alt="Fleet 1" />
-          <img src="/images/hero2.jpg" alt="Fleet 2" />
-          <img src="/images/hero3.jpg" alt="Fleet 3" />
+          <img src={hero1} alt="Fleet 1" />
+          <img src={hero2} alt="Fleet 2" />
+          <img src={hero3} alt="Fleet 3" />
         </div>
 
         <h1>Safety you can see. <br/> Performance you can measure.</h1>

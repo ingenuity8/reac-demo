@@ -1,5 +1,15 @@
 import React from "react";
 import "../styles/GlobalSection.css";
+import forbes from "../assets/forbes.webp"
+import HDT from "../assets/HDT.webp"
+import Gold from "../assets/Gold.webp"
+import AISafety from "../assets/AISafety.avif"
+import swift from "../assets/swift.avif"
+import knight from "../assets/knight.avif"
+import loadone from "../assets/loadone.avif"
+import sts from "../assets/sts.avif"
+import loomis from "../assets/loomis.webp"
+import vascor from "../assets/vascor.webp"
 
 export default function GlobalSection() {
   return (
@@ -85,12 +95,12 @@ export default function GlobalSection() {
         </div>
 
         <div className="partner-logos">
-          <img src="../images/logo-swift.png" alt="Swift" />
-          <img src="../images/logo-knight.png" alt="Knight" />
-          <img src="../images/logo-loadone.png" alt="Load One" />
-          <img src="../images/logo-loomis.png" alt="Loomis" />
-          <img src="../images/logo-sts.png" alt="STS" />
-          <img src="../images/logo-vascor.png" alt="Vascor" />
+          <img src={swift} alt="Swift" />
+          <img src={knight} alt="Knight" />
+          <img src={loadone} alt="Load One" />
+          <img src={loomis} alt="Loomis" />
+          <img src={sts} alt="STS" />
+          <img src={vascor} alt="Vascor" />
         </div>
       </div>
       <div className="world-map">
@@ -123,28 +133,28 @@ export default function GlobalSection() {
         <div className="awards-right">
           <div className="awards-grid">
             <div>
-              <img src="../images/award-forbes.png" alt="Forbes" />
+              <img src={forbes} alt="Forbes" />
               <p>
                 Forbes Best Startup Employers List <br />
                 <span>2023–2025</span>
               </p>
             </div>
             <div>
-              <img src="../images/award-hdt.png" alt="HDT" />
+              <img src={HDT} alt="HDT" />
               <p>
                 HDT Top 20 Products <br />
                 <span>2025</span>
               </p>
             </div>
             <div>
-              <img src="../images/award-stevie.png" alt="Stevie" />
+              <img src={Gold} alt="Stevie" />
               <p>
                 Gold Stevie® Award <br />
                 <span>2024</span>
               </p>
             </div>
             <div>
-              <img src="../images/award-ai.png" alt="AI" />
+              <img src={AISafety} alt="AI" />
               <p>
                 AI Safety Solution of the Year <br />
                 <span>2025</span>
